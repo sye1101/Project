@@ -36,4 +36,5 @@ public class LikeFoods extends BaseEntity {
     public void setFoodCategory(FoodCategory foodCategory){
         this.foodCategory = foodCategory;
     }
+
 }
