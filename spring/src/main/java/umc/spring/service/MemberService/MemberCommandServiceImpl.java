@@ -12,7 +12,7 @@ import umc.spring.converter.MemberConverter;
 import umc.spring.domain.FoodCategory;
 import umc.spring.domain.Member;
 import umc.spring.domain.mapping.LikeFoods;
-import umc.spring.web.dto.MemberRequestDTO;
+import umc.spring.web.dto.member.MemberRequestDTO;
 
 import java.util.List;
 import java.util.stream.Collectors;

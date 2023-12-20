@@ -12,7 +12,7 @@ import umc.spring.apiPayload.exception.handler.RestaurantCategoryHandler;
 import umc.spring.domain.Location;
 import umc.spring.domain.Restaurant;
 import umc.spring.domain.RestaurantCategory;
-import umc.spring.web.dto.RestaurantRequestDTO;
+import umc.spring.web.dto.restaurant.RestaurantRequestDTO;
 
 
 @Service
