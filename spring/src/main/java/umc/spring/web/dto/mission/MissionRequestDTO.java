@@ -1,6 +1,7 @@
 package umc.spring.web.dto.mission;
 
 import lombok.Getter;
+import umc.spring.validation.annotation.ExistRestaurant;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -15,7 +16,7 @@ public class MissionRequestDTO {
         String description;
         @NotNull
         LocalDate deadline;
-        @NotNull
+        @ExistRestaurant
         Long restaurantId;
     }
 }
