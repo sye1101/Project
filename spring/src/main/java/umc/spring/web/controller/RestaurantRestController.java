@@ -11,6 +11,8 @@ import umc.spring.domain.Restaurant;
 import umc.spring.service.RestaurantService.RestaurantCommandService;
 import umc.spring.web.dto.RestaurantResponseDTO;
 import umc.spring.web.dto.RestaurantRequestDTO;
+import umc.spring.web.dto.restaurant.RestaurantReponseDTO;
+import umc.spring.web.dto.restaurant.RestaurantRequestDTO;
 
 import javax.validation.Valid;
 
