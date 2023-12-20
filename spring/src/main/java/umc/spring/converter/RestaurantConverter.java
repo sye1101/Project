@@ -1,8 +1,7 @@
 package umc.spring.converter;
 
 import umc.spring.domain.Restaurant;
-import umc.spring.web.dto.RestaurantResponseDTO;
-import umc.spring.web.dto.restaurant.RestaurantReponseDTO;
+import umc.spring.web.dto.restaurant.RestaurantResponseDTO;
 
 public class RestaurantConverter {
     public static RestaurantResponseDTO.AddRestaurantResultDTO toAddRestaurantResultDTO(Restaurant restaurant) {
