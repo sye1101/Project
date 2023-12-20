@@ -1,11 +1,11 @@
 package umc.spring.converter;
 
 import umc.spring.domain.Restaurant;
-import umc.spring.web.dto.restaurant.RestaurantReponseDTO;
+import umc.spring.web.dto.restaurant.RestaurantResponseDTO;
 
 public class RestaurantConverter {
-    public static RestaurantReponseDTO.AddRestaurantResultDTO toAddRestaurantResultDTO(Restaurant restaurant) {
-        return RestaurantReponseDTO.AddRestaurantResultDTO.builder()
+    public static RestaurantResponseDTO.AddRestaurantResultDTO toAddRestaurantResultDTO(Restaurant restaurant) {
+        return RestaurantResponseDTO.AddRestaurantResultDTO.builder()
                 .restaurantId(restaurant.getId())
                 .name(restaurant.getName())
                 .categoryId(restaurant.getRestaurantCategory().getId())
