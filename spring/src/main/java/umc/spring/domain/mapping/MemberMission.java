@@ -36,6 +36,6 @@ public class MemberMission extends BaseEntity {
     private Missions missions;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "member_id")
+    @JoinColumn(name = "git getmember_id")
     private Member member;
 }

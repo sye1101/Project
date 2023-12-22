@@ -17,4 +17,12 @@ public class RestaurantRequestDTO {
         @NotNull
         String address;
     }
+
+    @Getter
+    public static class ReviewDTO {
+        @NotNull
+        Float rating;
+        @NotBlank
+        String body;
+    }
 }
